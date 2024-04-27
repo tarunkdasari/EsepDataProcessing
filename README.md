@@ -11,6 +11,10 @@ Steps:
 6) To see the actual code, visit "DB.cpp" file, which has the main database function definitions. The file "DB.h" is used for declaring the class and its functions, while the "main.cpp" file is used for testing. The "DB.cpp" file is the one needed for grading.
 
 NOTE: if you do not have make, install it by running the following command on a command prompt (that must be run by administrator): "choco install make" (Without quotation marks). This would install make on Windows operating systems
-How this assignment can be modified
+
+-----------------------------------------------------------------------------------------------------------
+
+How this assignment can be modified:
+
 
 Having clearer instructions on the testing/running aspect of the project would be better. I am unsure of how the graders would run the project (would they take the class files and run their own testing file, or would they want us to create a user interface), so I ended up creating the user interface (list of options), and the sample run just to be safe. Additionally, a function to reset the database completely (erase all data) should have been implemented in the assignment document. I added a reset function for testing reasons but having it officially be part of the assignment would have been good.
